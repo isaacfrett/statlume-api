@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "com-moneyball"
+version = "0.1.0"
+description = "com.moneyball"
+authors = ["Isaac <isaacfrett2@gmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "com"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+[tool.poetry.group.editor.dependencies]
+black = "^23.9.1"
+isort = "^5.12.0"
+flake8 = "^6.1.0"
+pre-commit = "^3.4.0"
+pyright = "^1.1.327"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 90
+
+[tool.pyright]
+strict = ["com"]
+
+[tool.poetry.scripts]
+glootie = "com.glootie.cli:app"
