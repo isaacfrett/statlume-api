@@ -1,0 +1,30 @@
+repos:
+  - repo: local
+    hooks:
+    -   id: flake8
+        name: flake8
+        description: lint staged python files using flake8
+        language: system
+        entry: python -m flake8 com tests
+        files: ^.*\.(py)$
+
+    -   id: pyright
+        name: pyright
+        description: lint staged python files using pyright
+        language: system
+        entry: python -m pyright --warnings --pythonversion 3.10 com
+        files: ^.*\.(py)$
+
+    -   id: isort
+        name: isort
+        description: lint staged python files using isort
+        language: system
+        entry: python -m isort --virtual-env .venv com
+        files: ^.*\.(py)$
+      
+    -   id: black
+        name: black
+        description: lint staged python files using black
+        language: system
+        entry: python -m black com
+        files: ^.*\.(py)$
