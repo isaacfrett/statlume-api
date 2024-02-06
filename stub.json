@@ -1,0 +1,4672 @@
+{
+    "id": "730f1a225a18cad675e4ad784d84ddd2",
+    "sport_key": "basketball_nba",
+    "sport_title": "NBA",
+    "commence_time": "2024-02-02T03:00:00Z",
+    "home_team": "Utah Jazz",
+    "away_team": "Philadelphia 76ers",
+    "bookmakers": [
+        {
+            "key": "draftkings",
+            "title": "DraftKings",
+            "markets": [
+                {
+                    "key": "player_assists",
+                    "last_update": "2024-02-01T14:49:27Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 114,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -145,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -160,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 124,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 100,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -130,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 120,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -150,
+                            "point": 4.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_points",
+                    "last_update": "2024-02-01T14:49:27Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -140,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 110,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -120,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -110,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -105,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -125,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -125,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -105,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -120,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -110,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -105,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -125,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -110,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -120,
+                            "point": 24.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_rebounds",
+                    "last_update": "2024-02-01T14:49:27Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -125,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -105,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 110,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -140,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -120,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -110,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -130,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 100,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -105,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -125,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -135,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 105,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -150,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 120,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 6.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_threes",
+                    "last_update": "2024-02-01T14:49:27Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -110,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -120,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -215,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 165,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -125,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -105,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -105,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -125,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -180,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 140,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -140,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 110,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 1.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "pointsbetus",
+            "title": "PointsBet (US)",
+            "markets": [
+                {
+                    "key": "player_assists",
+                    "last_update": "2024-02-01T14:51:57Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 105,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -140,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -165,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 125,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -110,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -120,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 115,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -150,
+                            "point": 4.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_points",
+                    "last_update": "2024-02-01T14:51:57Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -110,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -120,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -120,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -110,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -105,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -125,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre",
+                            "price": -120,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre",
+                            "price": -110,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 105,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -140,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -120,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -110,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -105,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -125,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -105,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -125,
+                            "point": 24.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_rebounds",
+                    "last_update": "2024-02-01T14:51:57Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -125,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -105,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 110,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -145,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -115,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -115,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre",
+                            "price": -125,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre",
+                            "price": -105,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -110,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -120,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -130,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 100,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -150,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 115,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 6.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_threes",
+                    "last_update": "2024-02-01T14:51:57Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -210,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 160,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 125,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -165,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -105,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -125,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -145,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 110,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -115,
+                            "point": 1.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "betmgm",
+            "title": "BetMGM",
+            "markets": [
+                {
+                    "key": "player_assists",
+                    "last_update": "2024-02-01T14:50:42Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -190,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 140,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 115,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -155,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 160,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -225,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 100,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -135,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -120,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -110,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 110,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -145,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 110,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -145,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -160,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 120,
+                            "point": 3.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_points",
+                    "last_update": "2024-02-01T14:50:42Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -120,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -110,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -145,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 105,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -115,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -115,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -135,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": 100,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -105,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -125,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -110,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -120,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": 100,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -130,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -125,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -105,
+                            "point": 18.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_rebounds",
+                    "last_update": "2024-02-01T14:50:42Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -120,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -110,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -120,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -110,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 110,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -145,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -105,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -130,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -155,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 115,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -120,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -135,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 100,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -120,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -110,
+                            "point": 2.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_threes",
+                    "last_update": "2024-02-01T14:50:42Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -185,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 135,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -110,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -120,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -225,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 160,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 100,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -135,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -140,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 105,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -110,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -120,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -125,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -105,
+                            "point": 1.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "williamhill_us",
+            "title": "Caesars",
+            "markets": [
+                {
+                    "key": "player_assists",
+                    "last_update": "2024-02-01T14:51:27Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 106,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -145,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 104,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -142,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 159,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -224,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -194,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 139,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -157,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 114,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 116,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -160,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 104,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -142,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -121,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -113,
+                            "point": 1.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_points",
+                    "last_update": "2024-02-01T14:51:27Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -106,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -129,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -119,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -115,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -115,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -119,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -119,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -121,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -113,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -127,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -108,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -151,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 110,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -139,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": 102,
+                            "point": 5.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_rebounds",
+                    "last_update": "2024-02-01T14:51:27Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -127,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -108,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -163,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 118,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -119,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -129,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -106,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -106,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -129,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 108,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -148,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -133,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -103,
+                            "point": 4.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_threes",
+                    "last_update": "2024-02-01T14:51:27Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -121,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -113,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -145,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 106,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -184,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 133,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -101,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -135,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -106,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -129,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -224,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 159,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -111,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -123,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -131,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -104,
+                            "point": 1.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "fanduel",
+            "title": "FanDuel",
+            "markets": [
+                {
+                    "key": "player_assists",
+                    "last_update": "2024-02-01T14:49:59Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 112,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -142,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -162,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 126,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 122,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -156,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 124,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -158,
+                            "point": 4.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_points",
+                    "last_update": "2024-02-01T14:49:59Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -120,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -106,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 104,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -132,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -128,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 100,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -106,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -120,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -113,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -113,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -111,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -115,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -111,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -115,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -106,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -120,
+                            "point": 23.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_rebounds",
+                    "last_update": "2024-02-01T14:49:59Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 110,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -140,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -138,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 108,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 104,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -132,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -104,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -122,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": 112,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -142,
+                            "point": 4.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_threes",
+                    "last_update": "2024-02-01T14:49:59Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 140,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -180,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -113,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -113,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -205,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 158,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -150,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 118,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -113,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -113,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -108,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -120,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -118,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -108,
+                            "point": 1.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "unibet_us",
+            "title": "Unibet",
+            "markets": [
+                {
+                    "key": "player_assists",
+                    "last_update": "2024-02-01T14:50:31Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 102,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -134,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -205,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": 150,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -175,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 130,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 116,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -155,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 112,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -150,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -235,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": 170,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -165,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 123,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": 140,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -190,
+                            "point": 4.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_points",
+                    "last_update": "2024-02-01T14:50:31Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 102,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -134,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 104,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -139,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 104,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -139,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -186,
+                            "point": 13.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 130,
+                            "point": 13.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -180,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 125,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -120,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -112,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -132,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 100,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -114,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -117,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -127,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -105,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 104,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -137,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -117,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -113,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -152,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": 112,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -235,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 155,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 107,
+                            "point": 25.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -143,
+                            "point": 25.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 188,
+                            "point": 27.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -315,
+                            "point": 27.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 160,
+                            "point": 27.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -245,
+                            "point": 27.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -265,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 170,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 125,
+                            "point": 25.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -180,
+                            "point": 25.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -152,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 112,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -265,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": 170,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": 160,
+                            "point": 10.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -245,
+                            "point": 10.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 160,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -245,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 132,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -190,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -335,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 200,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -265,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 170,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 163,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -250,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -167,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 120,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 130,
+                            "point": 26.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -186,
+                            "point": 26.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -150,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": 110,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -235,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 155,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -265,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": 165,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -360,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 210,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 155,
+                            "point": 26.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -235,
+                            "point": 26.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 195,
+                            "point": 28.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -335,
+                            "point": 28.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -275,
+                            "point": 12.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 170,
+                            "point": 12.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -167,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 120,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -335,
+                            "point": 15.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 200,
+                            "point": 15.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -195,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": 135,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": 120,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -167,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 130,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -186,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 200,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -345,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -200,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 138,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 128,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -180,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -125,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -107,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -375,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": 210,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 102,
+                            "point": 15.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -134,
+                            "point": 15.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 170,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -275,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 205,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -345,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 150,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -230,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": 190,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -315,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": 117,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -162,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -112,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -120,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -205,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 140,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": 150,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -225,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -148,
+                            "point": 15.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 110,
+                            "point": 15.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -295,
+                            "point": 13.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 185,
+                            "point": 13.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_rebounds",
+                    "last_update": "2024-02-01T14:50:31Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -141,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 107,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -225,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": 163,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -177,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 130,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -152,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 114,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -195,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 143,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -109,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -122,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -113,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -118,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 120,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -162,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 135,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -182,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 165,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -225,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 160,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -215,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": 128,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -175,
+                            "point": 4.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_threes",
+                    "last_update": "2024-02-01T14:50:31Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -105,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -127,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -118,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -112,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -165,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 123,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 132,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -177,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -200,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 148,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": 200,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -278,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -127,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -105,
+                            "point": 1.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "betrivers",
+            "title": "BetRivers",
+            "markets": [
+                {
+                    "key": "player_assists",
+                    "last_update": "2024-02-01T14:51:30Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 102,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -134,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -205,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": 150,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -175,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 130,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 116,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -155,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 112,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -150,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -235,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": 170,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -165,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 123,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": 140,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -190,
+                            "point": 4.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_points",
+                    "last_update": "2024-02-01T14:51:30Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 102,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -134,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 104,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -139,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 104,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -139,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -186,
+                            "point": 13.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 130,
+                            "point": 13.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -180,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 125,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -120,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -112,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -132,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 100,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -114,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -117,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -127,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -105,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 104,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -137,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -117,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -113,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -152,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": 112,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -235,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 155,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 107,
+                            "point": 25.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -143,
+                            "point": 25.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 188,
+                            "point": 27.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -315,
+                            "point": 27.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 160,
+                            "point": 27.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -245,
+                            "point": 27.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -265,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 170,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 125,
+                            "point": 25.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -180,
+                            "point": 25.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -152,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 112,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -265,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": 170,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": 160,
+                            "point": 10.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -245,
+                            "point": 10.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 160,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -245,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 132,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -190,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -335,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 200,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -265,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 170,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 163,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -250,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -167,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 120,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 130,
+                            "point": 26.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -186,
+                            "point": 26.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -150,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": 110,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -235,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 155,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -265,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": 165,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -360,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 210,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 155,
+                            "point": 26.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -235,
+                            "point": 26.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 195,
+                            "point": 28.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -335,
+                            "point": 28.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -275,
+                            "point": 12.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 170,
+                            "point": 12.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -167,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 120,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -335,
+                            "point": 15.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 200,
+                            "point": 15.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -195,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": 135,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": 120,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -167,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 130,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -186,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 200,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -345,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -200,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 138,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 128,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -180,
+                            "point": 21.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -125,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -107,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -375,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": 210,
+                            "point": 20.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 102,
+                            "point": 15.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -134,
+                            "point": 15.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 170,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -275,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 205,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -345,
+                            "point": 22.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 150,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -230,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": 190,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -315,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": 117,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -162,
+                            "point": 17.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -112,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -120,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -205,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 140,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": 150,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -225,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -148,
+                            "point": 15.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 110,
+                            "point": 15.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -295,
+                            "point": 13.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 185,
+                            "point": 13.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_rebounds",
+                    "last_update": "2024-02-01T14:51:30Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -141,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 107,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -225,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": 163,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -177,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 130,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -152,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 114,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -195,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 143,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -109,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -122,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -113,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -118,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 120,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -162,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 135,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -182,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 165,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -225,
+                            "point": 7.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 160,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -215,
+                            "point": 9.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": 128,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -175,
+                            "point": 4.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_threes",
+                    "last_update": "2024-02-01T14:51:30Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -105,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -127,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -118,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -112,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -165,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 123,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": 132,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -177,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -200,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 148,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": 200,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -278,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -127,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -105,
+                            "point": 1.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "bovada",
+            "title": "Bovada",
+            "markets": [
+                {
+                    "key": "player_assists",
+                    "last_update": "2024-02-01T14:50:23Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 110,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -145,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -160,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 120,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 100,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -130,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 115,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -150,
+                            "point": 4.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_points",
+                    "last_update": "2024-02-01T14:50:23Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -135,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 105,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -120,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -110,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -110,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -120,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -120,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -110,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 110,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -145,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -110,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -120,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -115,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -115,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -105,
+                            "point": 24.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -125,
+                            "point": 24.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_rebounds",
+                    "last_update": "2024-02-01T14:50:23Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -125,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -105,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 110,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -145,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -120,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -110,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -130,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 100,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -105,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -125,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -135,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 105,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -150,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 115,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 6.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_threes",
+                    "last_update": "2024-02-01T14:50:23Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -110,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -120,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -215,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 160,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -125,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -105,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -105,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -125,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -180,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 135,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -145,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 110,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -115,
+                            "point": 1.5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "betonlineag",
+            "title": "BetOnline.ag",
+            "markets": [
+                {
+                    "key": "player_assists",
+                    "last_update": "2024-02-01T14:50:50Z",
+                    "outcomes": [
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -156,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": 121,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 128,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -167,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": 118,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -154,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": 104,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -135,
+                            "point": 4.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_points",
+                    "last_update": "2024-02-01T14:50:50Z",
+                    "outcomes": [
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": -108,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -120,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -108,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": -120,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -120,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -108,
+                            "point": 16.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -130,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": 100,
+                            "point": 5.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -114,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -114,
+                            "point": 14.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -114,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -114,
+                            "point": 19.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -114,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -114,
+                            "point": 23.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -114,
+                            "point": 18.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -114,
+                            "point": 18.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_rebounds",
+                    "last_update": "2024-02-01T14:50:50Z",
+                    "outcomes": [
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 117,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -152,
+                            "point": 3.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -103,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -125,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -122,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": -106,
+                            "point": 6.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -149,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 115,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -130,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": 100,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -103,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -125,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": -139,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": 107,
+                            "point": 8.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -130,
+                            "point": 4.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": 101,
+                            "point": 4.5
+                        }
+                    ]
+                },
+                {
+                    "key": "player_threes",
+                    "last_update": "2024-02-01T14:50:50Z",
+                    "outcomes": [
+                        {
+                            "name": "Under",
+                            "description": "Jordan Clarkson",
+                            "price": -109,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Jordan Clarkson",
+                            "price": -119,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Tobias Harris",
+                            "price": -133,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Tobias Harris",
+                            "price": 103,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Simone Fontecchio",
+                            "price": 109,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Simone Fontecchio",
+                            "price": -141,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Collin Sexton",
+                            "price": -109,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Collin Sexton",
+                            "price": -119,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "John Collins",
+                            "price": -213,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "John Collins",
+                            "price": 162,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kris Dunn",
+                            "price": -125,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kris Dunn",
+                            "price": -103,
+                            "point": 0.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -112,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Kelly Oubre Jr.",
+                            "price": -115,
+                            "point": 1.5
+                        },
+                        {
+                            "name": "Over",
+                            "description": "Lauri Markkanen",
+                            "price": -179,
+                            "point": 2.5
+                        },
+                        {
+                            "name": "Under",
+                            "description": "Lauri Markkanen",
+                            "price": 137,
+                            "point": 2.5
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
