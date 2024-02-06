@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "statlume-api"
+version = "0.1.0"
+description = "API for statlume"
+authors = ["Isaac <isaacfrett2@gmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "statlume-api"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+mysql = "^0.0.3"
+pandas = "^2.2.0"
+sqlalchemy = "^2.0.25"
+mysql-connector-python = "^8.3.0"
+django-ninja = "^1.1.0"
+django = "^5.0.1"
+
+[tool.poetry.group.editor.dependencies]
+black = "^23.9.1"
+isort = "^5.12.0"
+flake8 = "^6.1.0"
+pre-commit = "^3.4.0"
+pyright = "^1.1.347"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 90
+
+[tool.pyright]
+strict = ["statlume-api"]
