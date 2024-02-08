@@ -275,32 +275,6 @@ def get_recent_stats(player_id: str, logs: pd.DataFrame, field: str):
     return round(average_value, 1)
 
 
-def extract_event_id(obj: object, home_team: str, visitor_team: str) -> str:
-    for event in obj:
-        if event["home_team"] == home_team and event["away_team"] == visitor_team:
-            return event["id"]
-
-
-def get_player_odds(obj: object, field: str, player_name: str):
-    markets = []
-    outcomes = []
-    lines = []
-
-    for event in obj["bookmakers"]:
-        if event["key"] == "draftkings":
-            markets += event["markets"]
-
-    for stat in markets:
-        if stat["key"] == field:
-            outcomes += stat["outcomes"]
-
-    for player in outcomes:
-        if player["description"] == player_name:
-            lines += (player["name"], player["price"], player["point"])
-
-    return lines
-
-
 def create_player_sheet(
     date: str,
     home: pd.DataFrame,
@@ -379,14 +353,6 @@ def create_player_sheet(
         ws[home_cell_tag] = col[1]
         row += 1
 
-    sport = "basketball_nba"
-    markets = "player_points,player_threes,player_rebounds,player_assists,player_steals,player_blocks"
-    response = OddsAPI().get_event_id(sport=sport)
-    id = extract_event_id(
-        response.json(), home_team=home_team_name, visitor_team=visitor_team_name
-    )
-    response = OddsAPI().get_event_odds(sport=sport, id=id, markets=markets)
-
     for col in player_columns:
         visitor_category_start = col_a + str(row)
         visitor_category_end = col_e + str(row)
@@ -438,18 +404,14 @@ def create_player_sheet(
             visitor_stat_last3 = col_c + str(row)
             visitor_line = col_d + str(row)
             vistor_odd = col_e + str(row)
-            player_name = player["Player"]
+            player_name: str = player["Player"]
             ws[visitor_player] = player_name
             ws[visitor_stat_avg] = player[col[0]]
             ws[visitor_stat_last3] = get_recent_stats(id, visitor_player_logs, col[0])
             try:
-                odds = get_player_odds(
-                    obj=response.json(), field=col[2], player_name=player_name
-                )
-                if odds[0] == "Over" and odds[3] == "Under":
-                    ws[visitor_line] = odds[2]
-                    entry = str(odds[1]) + "/" + str(odds[4])
-                    ws[vistor_odd] = entry
+                odds = Database('nba').select_player_odds(player=player_name, field=col[2])
+                ws[visitor_line] = odds[0]
+                ws[vistor_odd] = odds[1]
             except:
                 ws[visitor_line] = "-"
                 ws[vistor_odd] = "-"
@@ -464,18 +426,14 @@ def create_player_sheet(
             home_stat_last3 = col_h + str(row)
             home_line = col_i + str(row)
             home_odd = col_j + str(row)
-            player_name = player["Player"]
+            player_name: str = player["Player"]
             ws[home_player] = player_name
             ws[home_stat_avg] = player[col[0]]
             ws[home_stat_last3] = get_recent_stats(id, home_player_logs, col[0])
             try:
-                odds = get_player_odds(
-                    obj=response.json(), field=col[2], player_name=player_name
-                )
-                if odds[0] == "Over" and odds[3] == "Under":
-                    ws[home_line] = odds[2]
-                    entry = str(odds[1]) + "/" + str(odds[4])
-                    ws[home_odd] = entry
+                odds = Database('nba').select_player_odds(player=player_name, field=col[2])
+                ws[home_line] = odds[0]
+                ws[home_odd] = odds[1]
             except:
                 ws[home_line] = "-"
                 ws[home_odd] = "-"

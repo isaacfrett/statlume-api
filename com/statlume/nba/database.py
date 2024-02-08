@@ -105,6 +105,15 @@ class Database:
         connection.close()
         return df
     
+    def select_player_odds(self, player: str, field: str):
+        connection = self.get_connection()
+        cursor = connection.cursor()
+        sql = "SELECT Line, Odds FROM odds WHERE Name = '%s' AND Prop = '%s';" % (player, field)
+        cursor.execute(sql)
+        results = cursor.fetchone()
+        cursor.close()
+        connection.close()
+        return results
 
     def get_todays_games(self) -> pd.DataFrame:
         today = datetime.datetime.today()

@@ -9,12 +9,11 @@ import pandas as pd
 from openpyxl import Workbook
 from openpyxl.drawing.image import Image as XLImage
 from openpyxl.formatting.rule import ColorScaleRule
-from openpyxl.styles import Alignment, Font, PatternFill
+from openpyxl.styles import Font, PatternFill
 from PIL import Image
 from sklearn.preprocessing import MinMaxScaler
 
 from com.statlume.nba.database import Database
-from com.statlume.odds.odds import OddsAPI
 
 
 def get_threepm_score(row: Dict) -> float:
@@ -37,32 +36,9 @@ def get_threepm_score(row: Dict) -> float:
     return score
 
 
-def extract_event_id(obj: object, team: str, opponent: str) -> str:
-    for event in obj:
-        if event["home_team"] == team:
-            return event["id"]
-        if event["home_team"] == opponent:
-            return event["id"]
-
-
-def get_line_odds(player: str, team: str, opponent: str) -> Tuple[str, str]:
-    sport = "basketball_nba"
-    markets = "player_threes"
-    response = OddsAPI().get_event_id(sport=sport)
-    id = extract_event_id(response.json(), team=team, opponent=opponent)
-    response = OddsAPI().get_event_odds(sport=sport, id=id, markets=markets)
-    markets = []
-    outcomes = []
-    for field in response.json()["bookmakers"]:
-        if field["key"] == "draftkings":
-            markets += field["markets"]
-    for field in markets:
-        if field["key"] == "player_threes":
-            outcomes += field["outcomes"]
-    for field in outcomes:
-        if field["description"] == player:
-            return (field["price"], field["point"])
-    return (None, None)
+def get_line_odds(player: str) -> Tuple[str, str]:
+    odds = Database('nba').select_player_odds(player=player, field="player_threes")
+    return (odds[0], odds[1])
 
 
 def get_team_name(team_abv: str) -> str:
@@ -128,7 +104,7 @@ def get_threes() -> pd.DataFrame:
     lineups = Database("nba").select_table_as_df("lineups")
     threes = pd.DataFrame()
     for index, player in lineups.iterrows():
-        player_name = player["Player"]
+        player_name: str = player["Player"]
         id = get_player_id(player_name=player_name)
         team_abv = player["Abbreviation"]
         team = get_team_name(team_abv=team_abv)
@@ -140,7 +116,10 @@ def get_threes() -> pd.DataFrame:
         attempt_rate = get_season_stat(player_id=id, stat="3PR", team=team)
         minutes_last = get_last_games_stat(player_id=id, stat="MIN", games=3)
         recent_stat = get_last_games_stat(player_id=id, stat="FG3M", games=3)
-        odds, line = get_line_odds(player=player_name, team=team, opponent=opponent)
+        try:
+            line, odds = get_line_odds(player=player_name)
+        except:
+            continue
         values = {
             "Team": team_abv,
             "Player": player_name,
