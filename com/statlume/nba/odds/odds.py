@@ -16,7 +16,8 @@ def get_outcomes(markets: List[Market]) -> Generator[pd.DataFrame, None, None]:
                     "Line": [outcome.point],
                     "Odds": [outcome.price]
                 }
-                yield pd.DataFrame(data=data)
+                df = pd.DataFrame(data=data)
+                yield df
     
 
 def get_markets(event: NBAEvent, book: str) -> List[Market]:
@@ -30,7 +31,9 @@ def get_dataframe_from_odds(response: Response) -> pd.DataFrame:
     event = NBAEvent.from_dict(response.json())
     markets = get_markets(event=event, book="draftkings")
     outcomes = get_outcomes(markets=markets)
-    df = pd.concat((outcome) for outcome in outcomes)
+    df = pd.DataFrame()
+    for outcome in outcomes:
+        df = pd.concat([df, outcome])
     return df
 
 

@@ -342,6 +342,9 @@ def create_player_sheet(
     col_i = "I"
     col_j = "J"
 
+
+    injuries = Database('nba').select_table_as_df('injuries')
+
     for col in team_columns:
         visitor_cell_tag = col_c + str(row)
         visitor_cell_stat = col_d + str(row)
@@ -406,6 +409,10 @@ def create_player_sheet(
             vistor_odd = col_e + str(row)
             player_name: str = player["Player"]
             ws[visitor_player] = player_name
+            for injury_index, injury in injuries.iterrows():
+                if player["Player"] == injury["Player"]:
+                    if injury["Status"] == "DTD":
+                        ws[visitor_player] = player_name + '*'
             ws[visitor_stat_avg] = player[col[0]]
             ws[visitor_stat_last3] = get_recent_stats(id, visitor_player_logs, col[0])
             try:
@@ -428,6 +435,10 @@ def create_player_sheet(
             home_odd = col_j + str(row)
             player_name: str = player["Player"]
             ws[home_player] = player_name
+            for injury_index, injury in injuries.iterrows():
+                if player["Player"] == injury["Player"]:
+                    if injury["Status"] == "DTD":
+                        ws[home_player] = player_name + '*'
             ws[home_stat_avg] = player[col[0]]
             ws[home_stat_last3] = get_recent_stats(id, home_player_logs, col[0])
             try:
@@ -437,6 +448,7 @@ def create_player_sheet(
             except:
                 ws[home_line] = "-"
                 ws[home_odd] = "-"
+
             row += 1
 
     ws.column_dimensions["A"].width = 20
@@ -605,20 +617,13 @@ def get_matchups():
                 if player["Player"] == injury["Player"]:
                     if injury["Status"] == "O":
                         visitor_player_stats = visitor_player_stats.drop(player_index)
-                    if injury["Status"] == "DTD":
-                        visitor_player_stats.loc[player_index, "Player"] = (
-                            player["Player"] + "*"
-                        )
+
 
         for player_index, player in home_player_stats.iterrows():
             for injury_index, injury in injuries.iterrows():
                 if player["Player"] == injury["Player"]:
                     if injury["Status"] == "O":
                         home_player_stats = home_player_stats.drop(player_index)
-                    if injury["Status"] == "DTD":
-                        home_player_stats.at[player_index, "Player"] = (
-                            player["Player"] + "*"
-                        )
 
         visitor_player_logs = pd.DataFrame()
         for index, player in visitor_player_stats[0:6].iterrows():
