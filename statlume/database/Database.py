@@ -47,7 +47,7 @@ class Database:
     def get_teams(self):
         connection = self.get_connection()
         sql = "SELECT * FROM teams;"
-        df = pd.read_sql(sql, connection)
+        df = pd.read_sql(sql, connection).sort_values(by="full_name")
         return df.to_dict(orient='list')
     
     def get_players(self, team: str):
@@ -56,7 +56,7 @@ class Database:
         FROM playerstats 
         INNER JOIN teams ON teams.id = playerstats.Team_ID
         WHERE teams.abbreviation = '%s';""" % (team) 
-        df = pd.read_sql(sql, connection)
+        df = pd.read_sql(sql, connection).head(15)
         return df.to_dict(orient='list')
     
     def get_odds(self, player: str, prop: str):

@@ -5,7 +5,7 @@ description = "API for statlume"
 authors = ["Isaac <isaacfrett2@gmail.com>"]
 readme = "README.md"
 packages = [
-    {include = "statlume-api"},
+    {include = "statlume"},
 ]
 
 [tool.poetry.dependencies]
