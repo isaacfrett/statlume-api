@@ -56,7 +56,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
 
-ROOT_URLCONF = "statlume.urls"
+ROOT_URLCONF = "com.statlume.urls"
 
 TEMPLATES = [
     {
@@ -74,7 +74,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "statlume.wsgi.application"
+WSGI_APPLICATION = "com.statlume.wsgi.application"
 
 
 # Database

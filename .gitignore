@@ -1,4 +1,5 @@
 __pycache__/
-com/statlume/nba/images
-com/statlume/nba/sheets
-com/statlume/nba/games.txt
+images/
+sheets/
+.txt
+settings.py

@@ -14,12 +14,12 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
-from typing import Any, List, Optional
+from typing import Any, List
 from django.contrib import admin
 from django.urls import path
 from ninja import NinjaAPI, Redoc
 from requests import Request
-from statlume.database.Database import Database
+from com.statlume.database import Database
 from django.http import JsonResponse
 
 #  add to api-> docs_decorator=staff_member_required
