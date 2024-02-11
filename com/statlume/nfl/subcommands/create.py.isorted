@@ -1,0 +1,15 @@
+import click
+
+from com.statlume.mlb.cli import mlb
+from com.statlume.nba.cli import nba
+from com.statlume.nfl.cli import nfl
+
+
+@click.group()
+def create() -> None:
+    """Perform create operations"""
+
+
+create.add_command(nba)
+create.add_command(nfl)
+create.add_command(mlb)
