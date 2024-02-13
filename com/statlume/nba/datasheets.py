@@ -598,7 +598,7 @@ def get_matchups():
     teamstats = Database("nba").select_table_as_df("teamstats")
     playerstats = Database("nba").select_table_as_df("playerstats")
     gamelogs = Database("nba").select_table_as_df("gamelogs")
-    injuries = Database("nba").select_table_as_df("injuries")
+    injuries = Database("nba").select_table_as_df("injuries").drop_duplicates()
 
     for index, row in games.iterrows():
         date = row["GameDate"]
@@ -616,14 +616,14 @@ def get_matchups():
             for injury_index, injury in injuries.iterrows():
                 if player["Player"] == injury["Player"]:
                     if injury["Status"] == "O":
-                        visitor_player_stats = visitor_player_stats.drop(player_index)
+                        visitor_player_stats = visitor_player_stats.drop(labels=player_index)
 
 
         for player_index, player in home_player_stats.iterrows():
             for injury_index, injury in injuries.iterrows():
                 if player["Player"] == injury["Player"]:
                     if injury["Status"] == "O":
-                        home_player_stats = home_player_stats.drop(player_index)
+                        home_player_stats = home_player_stats.drop(labels=player_index)
 
         visitor_player_logs = pd.DataFrame()
         for index, player in visitor_player_stats[0:6].iterrows():
