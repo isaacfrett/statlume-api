@@ -3,6 +3,7 @@ images/
 sheets/
 settings.py
 games.txt
+*.txt
 
 
 # Django #
@@ -12,6 +13,7 @@ games.txt
 __pycache__
 db.sqlite3
 media
+database.py
 
 # Backup files # 
 *.bak 

@@ -20,40 +20,47 @@ from django.urls import path
 from ninja import NinjaAPI, Redoc
 from requests import Request
 from com.statlume.database import Database
-from django.http import JsonResponse
+from django.http import FileResponse, JsonResponse
+from flask import jsonify
+
 
 #  add to api-> docs_decorator=staff_member_required
 api = NinjaAPI(title="Statlume API", docs=Redoc(), csrf=True)
 
-@api.get("/playerstats")
+@api.get("/nba/playerstats")
 def playerstats(request: Request, name: str):
     player = Database('nba').get_player_stat(name=name)
     return JsonResponse(player)
 
-@api.get("/playerlogs")
+@api.get("/nba/playerlogs")
 def playerlogs(request: Request, id: int):
     player = Database('nba').get_player_logs(id=id)
     return JsonResponse(player)
 
-@api.get("/playerlogs/games")
+@api.get("/nba/playerlogs/games")
 def playerlogs_games(request: Request, name: str, games: int):
     player = Database('nba').get_player_logs_games(name=name, games=games)
     return JsonResponse(player)
 
-@api.get("/teams")
+@api.get("/nba/teams")
 def teams(request: Request):
     teams = Database('nba').get_teams()
     return JsonResponse(teams)
 
-@api.get("/players")
+@api.get("/nba/players")
 def players(request: Request, team: str):
     players = Database('nba').get_players(team)
     return JsonResponse(players)
 
-@api.get("/odds")
-def players(request: Request, name: str, prop: str):
+@api.get("/nba/odds")
+def odds(request: Request, name: str, prop: str):
     odds = Database('nba').get_odds(name, prop)
     return JsonResponse(odds)
+
+@api.get("/nba/datasheets")
+def datasheets(request: Request):
+    datasheets = Database('nba').get_datasheets()
+    return JsonResponse(datasheets, safe=False)
 
 
 

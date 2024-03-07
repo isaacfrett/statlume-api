@@ -247,8 +247,8 @@ def insert_player_data(soup: BeautifulSoup):
             fgper = 0
         fgper = float(fgper)
         player_stats["FGP"].append(fgper)
+        
         eFG = row.find("td", {"data-stat": "efg_pct"}).text
-
         if not eFG:
             eFG = 0
         eFG = float(eFG)
@@ -257,9 +257,12 @@ def insert_player_data(soup: BeautifulSoup):
         for row2 in a_trs:
             name2 = row2.find("td", {"data-stat": "player"}).text
             if name == name2:
-                player_stats["PER"].append(
-                    float(row2.find("td", {"data-stat": "per"}).text)
-                )
+                per = row2.find("td", {"data-stat": "per"}).text
+                if not per:
+                    per = 0
+                per = float(per)    
+                player_stats["PER"].append(per)
+
 
                 tsper = row2.find("td", {"data-stat": "ts_pct"}).text
                 if not tsper:
